@@ -1,0 +1,10 @@
+#server
+conda install pytorch==1.11.0 cudatoolkit=11.3 -c pytorch
+conda install pyg -c pyg
+pip install ogb
+# local
+pip install torch==1.13.1
+pip install torch-scatter -f https://data.pyg.org/whl/torch-1.13.1+cu116.html
+pip install torch-sparse -f https://data.pyg.org/whl/torch-1.13.1+cu116.html
+pip install torch-geometric
+pip install ogb
